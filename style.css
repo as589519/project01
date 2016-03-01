@@ -1,0 +1,121 @@
+
+
+
+
+
+h1 { text-align: center; 
+    font-family: 'Bad Script', cursive;
+    font-size: 400%; 
+    color:#D9853B ; 
+    padding-top: 3%; 
+} 
+
+h2{text-align: center; 
+    color: #1f1f7a;  
+    font-size: 200%; 
+} 
+
+h3{font size: 3px;  
+    color: white; 
+} 
+nav {
+    position:absolute;  
+    top: 0;
+    left: 0;
+    background-color: white;
+    opacity: .7; 
+    border-bottom: 2px solid #ccc;
+    height: 70px;
+    width: 100%;
+     
+}
+
+nav li {
+    float: left;
+    width: auto;
+    list-style: none; 
+     
+     
+}
+nav li a {
+    padding: 25px 10px;
+    display: block;
+    color: #1f1f7a;  
+    font-size: 150%; 
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none; 
+
+        
+
+}
+
+nav a:hover {
+    color: #D9853B; 
+}
+nav ul {
+    float: right;
+    width: 100%;
+
+} 
+
+
+
+body {
+    padding-top: 5%;
+background-image: url(images/unsplash4.jpg); 
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 2%;
+	margin: 5%;
+    background-color: #d1e0e0;  
+    opacity: .5; 
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+    .
+
+}

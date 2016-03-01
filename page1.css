@@ -1,0 +1,38 @@
+
+
+h3{font-size: 170%;  
+    color: white; 
+    text-align: center; 
+    font-family: 'Open Sans Condensed', sans-serif;
+} 
+
+
+
+img{
+  max-width: 100%;
+  height: auto;
+  opacity: .55;
+  position:relative;
+  z-index: 2;
+}
+
+.containermain{
+  background-color: none; 
+  padding: 5%;
+  margin-bottom: 10%;
+}
+
+.containermain img:hover{
+  opacity: 1;
+  z-index: 10;
+  *-moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
